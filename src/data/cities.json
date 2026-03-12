@@ -4,141 +4,155 @@
     "population": 1304000,
     "households": 504000,
     "debt": {
-      "bondedDebt": 3500000000,
-      "unfundedPension": 6460000000,
-      "opeb": 580000000,
-      "otherLongTerm": 350000000
+      "bondedDebt": 7100000000,
+      "unfundedPension": 6396000000,
+      "opeb": 216000000,
+      "otherLongTerm": 235000000
     },
     "budget": {
-      "total": 4700000000,
-      "generalFund": 2060000000
+      "total": 4970000000,
+      "generalFund": 1790000000
     },
-    "taxBase": 200000000000,
-    "taxRate": 0.7357,
-    "creditRating": { "sp": "AA-", "moodys": "Aa3", "fitch": "AA", "kbra": "AA+" },
-    "creditRatingShort": "AA- / Aa3",
+    "taxBase": 215100000000,
+    "taxRate": 0.7047,
+    "creditRating": { "sp": "AA-", "moodys": "A1", "fitch": "AA", "kbra": "AA+" },
+    "creditRatingShort": "AA- / A1",
     "pensionFundedPct": 42,
     "pensionPlans": [
-      { "name": "Police & Fire (DPFP)", "unfunded": 3400000000, "funded": 37 },
-      { "name": "Employee Retirement (ERF)", "unfunded": 1200000000, "funded": 80 },
-      { "name": "DPFP Supplemental", "unfunded": 260000000, "funded": 43 }
+      { "name": "Police & Fire (DPFP Combined)", "unfunded": 3555000000, "funded": 34, "adcPct": 80 },
+      { "name": "Employee Retirement (ERF)", "unfunded": 1857000000, "funded": 67, "adcPct": 64 },
+      { "name": "DPFP Supplemental", "unfunded": 23000000, "funded": 50, "adcPct": 100 }
     ],
     "tia": { "grade": "D", "shortfall": 5900000000, "taxpayerBurden": 13200 },
     "tickRate": 10.5,
-    "color": "#FF3B3B",
-    "notes": "Net pension liability as of 12/31/2022 measurement. DPFP: $3.4B unfunded, ERF: $1.2B unfunded. S&P cited pension underfunding as 'significant credit weakness.' TIA: highest taxpayer burden in the state. 2024 bond program added $1.25B authorized by voters."
+    "color": "#DC2626",
+    "notes": "ACFR FY2024 (9/30/2024). Pension NPL measured 12/31/2023. DPFP Combined at 34% funded is among worst large U.S. municipal plans. City underfunds both pension ADCs — DPFP at 80%, ERF at 64%. Unrestricted net position deficit of $4.73B. Nov 2024 voters approved ERF reform phasing in full ADC over 5 years. Total bonded debt includes $3.45B in revenue bonds (water/sewer, airport) that are largely self-supporting.",
+    "dataDate": "FY2024 ACFR (9/30/2024)",
+    "sourceUrl": "https://dallascityhall.com/government/citymanager/Documents/Council%20Materials/FY24%20CoD%20ACFR.pdf"
   },
   {
     "name": "Houston",
-    "population": 2319000,
+    "population": 2390000,
     "households": 849000,
     "debt": {
-      "bondedDebt": 13600000000,
-      "unfundedPension": 4500000000,
-      "opeb": 2900000000,
-      "otherLongTerm": 500000000
+      "bondedDebt": 14172000000,
+      "unfundedPension": 1712000000,
+      "opeb": 1752000000,
+      "otherLongTerm": 661000000
     },
     "budget": {
       "total": 6300000000,
-      "generalFund": 2800000000
+      "generalFund": 2550000000
     },
-    "taxBase": 230000000000,
-    "taxRate": 0.5618,
-    "creditRating": { "sp": "AA", "moodys": "Aa3" },
+    "taxBase": 321300000000,
+    "taxRate": 0.51919,
+    "creditRating": { "sp": "AA", "moodys": "Aa3", "fitch": "AA-" },
     "creditRatingShort": "AA / Aa3",
-    "pensionFundedPct": 68,
+    "pensionFundedPct": 82,
     "pensionPlans": [
-      { "name": "Municipal Employees (HMEPS)", "unfunded": 1900000000, "funded": 72 },
-      { "name": "Police (HPOPS)", "unfunded": 1500000000, "funded": 60 },
-      { "name": "Firefighters (HFRRF)", "unfunded": 1100000000, "funded": 68 }
+      { "name": "Municipal Employees (HMEPS)", "unfunded": 1210000000, "funded": 80, "adcPct": 99 },
+      { "name": "Police (HPOPS)", "unfunded": 501000000, "funded": 94, "adcPct": 129 },
+      { "name": "Firefighters (HFRRF)", "unfunded": 1300000, "funded": 100, "adcPct": 100 }
     ],
     "tia": { "grade": "D", "shortfall": 4500000000, "taxpayerBurden": 5700 },
     "tickRate": 7.2,
-    "color": "#0090FF",
-    "notes": "Post-2017 pension reform. POBs issued. Total debt $19.7B incl. interest. Much of total debt is revenue-supported (airport, water/sewer). Pension reform capped city contributions via cost corridor — structurally different from Dallas."
+    "color": "#2563EB",
+    "notes": "ACFR FY2025 (6/30/2025). 2017 pension reform is working — HFRRF essentially fully funded at 99.98%, HPOPS at 94%. All plans at or above ADC. Tax-supported debt is only $3.73B; the remaining ~$10.4B is revenue-supported (airport, water/sewer, convention). OPEB at $1.75B is 0% funded but city approved OPEB trust in Aug 2025.",
+    "dataDate": "FY2025 ACFR (6/30/2025)",
+    "sourceUrl": "https://www.houstontx.gov/controller/acfr/acfr-fy2025.pdf"
   },
   {
     "name": "San Antonio",
-    "population": 1473000,
+    "population": 1486000,
     "households": 530000,
     "debt": {
-      "bondedDebt": 11800000000,
-      "unfundedPension": 2300000000,
-      "opeb": 1400000000,
-      "otherLongTerm": 450000000
+      "bondedDebt": 3573000000,
+      "unfundedPension": 1498000000,
+      "opeb": 832000000,
+      "otherLongTerm": 300000000
     },
     "budget": {
       "total": 3900000000,
       "generalFund": 1500000000
     },
-    "taxBase": 145000000000,
-    "taxRate": 0.5588,
-    "creditRating": { "sp": "AAA", "moodys": "Aaa" },
+    "taxBase": 160700000000,
+    "taxRate": 0.54159,
+    "creditRating": { "sp": "AAA", "moodys": "Aaa", "fitch": "AA+" },
     "creditRatingShort": "AAA / Aaa",
-    "pensionFundedPct": 78,
+    "pensionFundedPct": 79,
     "pensionPlans": [
-      { "name": "Fire & Police (SAFRPF)", "unfunded": 1400000000, "funded": 75 },
-      { "name": "Municipal (SAMERS)", "unfunded": 900000000, "funded": 82 }
+      { "name": "Fire & Police (SAFPPF)", "unfunded": 849000000, "funded": 82, "adcPct": 99 },
+      { "name": "Municipal via TMRS", "unfunded": 649000000, "funded": 75, "adcPct": 100 }
     ],
     "tia": { "grade": "C", "shortfall": 1200000000, "taxpayerBurden": 2800 },
     "tickRate": 4.8,
-    "color": "#00C853",
-    "notes": "CPS Energy debt is major component (~$7B of total). High per capita debt ($12,557) but much is utility revenue-supported. Pension relatively well managed. AAA rating reflects strong credit fundamentals separate from utility debt."
+    "color": "#16A34A",
+    "notes": "ACFR FY2024 (9/30/2024). City bonded debt is $2.6B tax-supported + ~$975M revenue bonds. CPS Energy carries $6.58B in separate revenue bonds NOT included here — they are utility revenue debt, not city tax obligations. TMRS requires 100% ADC funding. SAFPPF at 85% actuarial funded ratio (AVA). Strong AAA/Aaa credit ratings.",
+    "dataDate": "FY2024 ACFR (9/30/2024)",
+    "sourceUrl": "https://www.sa.gov/files/assets/main/v/1/finance/documents/fy2024-annualcomprehensivefinancialreport.pdf",
+    "cpsEnergyDebt": 6579000000,
+    "cpsEnergyNote": "CPS Energy revenue bonds ($6.58B) are secured by utility revenues, not property taxes. Excluded from city obligation totals."
   },
   {
     "name": "Fort Worth",
-    "population": 960000,
+    "population": 1008000,
     "households": 340000,
     "debt": {
-      "bondedDebt": 2900000000,
-      "unfundedPension": 1800000000,
-      "opeb": 380000000,
-      "otherLongTerm": 200000000
+      "bondedDebt": 3461000000,
+      "unfundedPension": 2301000000,
+      "opeb": 387000000,
+      "otherLongTerm": 226000000
     },
     "budget": {
-      "total": 2600000000,
-      "generalFund": 920000000
+      "total": 2790000000,
+      "generalFund": 1005000000
     },
-    "taxBase": 100000000000,
-    "taxRate": 0.6925,
-    "creditRating": { "sp": "AA+", "moodys": "Aa1" },
-    "creditRatingShort": "AA+ / Aa1",
-    "pensionFundedPct": 62,
+    "taxBase": 120000000000,
+    "taxRate": 0.6725,
+    "creditRating": { "sp": "AA", "moodys": "Aa3", "fitch": "AA", "kbra": "AA+" },
+    "creditRatingShort": "AA / Aa3",
+    "pensionFundedPct": 57,
     "pensionPlans": [
-      { "name": "Employees' Retirement (FWERP)", "unfunded": 1800000000, "funded": 62 }
+      { "name": "Employees' Retirement (FWERP)", "unfunded": 2301000000, "funded": 57, "adcPct": 87 }
     ],
     "tia": { "grade": "C", "shortfall": 1400000000, "taxpayerBurden": 4100 },
     "tickRate": 2.4,
-    "color": "#FFB300",
-    "notes": "Lowest absolute debt among the five but significant unfunded pension relative to revenue base. Moody's flagged pension as a scorecard notch-down factor. TIA: 'financial condition showed some improvement.'"
+    "color": "#D97706",
+    "notes": "ACFR FY2025 (9/30/2025). FWERP pension at 56.5% funded with NPL of $2.3B. City has NEVER fully funded its ADC — persistent $25-38M annual shortfall. Total bonded debt includes $1.69B in revenue bonds (water/sewer). Population crossed 1M milestone. Tax-supported debt backed by full faith & credit is $948M.",
+    "dataDate": "FY2025 ACFR (9/30/2025)",
+    "sourceUrl": "https://www.fortworthtexas.gov/files/assets/public/v/1/finance/documents/financial-reporting/fy2025-acfr-digital-copy.pdf"
   },
   {
     "name": "Austin",
     "population": 1018000,
     "households": 415000,
     "debt": {
-      "bondedDebt": 7200000000,
-      "unfundedPension": 2700000000,
-      "opeb": 1800000000,
+      "bondedDebt": 7653000000,
+      "unfundedPension": 3170000000,
+      "opeb": 1900000000,
       "otherLongTerm": 400000000
     },
     "budget": {
-      "total": 5400000000,
+      "total": 6300000000,
       "generalFund": 1300000000
     },
-    "taxBase": 170000000000,
-    "taxRate": 0.4412,
-    "creditRating": { "sp": "AAA", "moodys": "Aaa" },
-    "creditRatingShort": "AAA / Aaa",
-    "pensionFundedPct": 66,
+    "taxBase": 236300000000,
+    "taxRate": 0.524,
+    "creditRating": { "sp": "AAA", "moodys": "Aa1", "fitch": "AAA" },
+    "creditRatingShort": "AAA / Aa1",
+    "pensionFundedPct": 63,
     "pensionPlans": [
-      { "name": "City Employees (COAERS)", "unfunded": 1600000000, "funded": 68 },
-      { "name": "Police (APRS)", "unfunded": 600000000, "funded": 58 },
-      { "name": "Fire (AFRS)", "unfunded": 500000000, "funded": 64 }
+      { "name": "City Employees (COAERS)", "unfunded": 2387000000, "funded": 61, "adcPct": 85 },
+      { "name": "Police (APRS)", "unfunded": 783000000, "funded": 58, "adcPct": 90 },
+      { "name": "Fire (AFRS)", "unfunded": 300000000, "funded": 77, "adcPct": 100 }
     ],
     "tia": { "grade": "D", "shortfall": 3900000000, "taxpayerBurden": 11700 },
     "tickRate": 3.9,
-    "color": "#AA00FF",
-    "notes": "Austin Energy debt is significant component. Highest TIA taxpayer burden among Texas cities after Dallas at $11,700. Ranked 13th worst nationally by TIA. Despite AAA GO rating, off-balance-sheet obligations are substantial."
+    "color": "#9333EA",
+    "notes": "FY2024-2025 ACFR + TX Bond Review Board FY2025 data. Tax-supported debt is $1.90B; revenue-supported is $5.76B (Austin Energy ~$2B, Water $2.1B, Airport $982M). COAERS at 61% funded is the pension drag — UAAL of $2.39B. OPEB at $1.9B is largest among 5 cities, 0% funded. Fitch upgraded GO to AAA in Sept 2025. SB 1444 reformed COAERS to ADC-based contributions.",
+    "dataDate": "FY2024-2025 ACFR / TX BRB",
+    "sourceUrl": "https://www.austintexas.gov/page/financial-reports",
+    "austinEnergyDebt": 2024000000,
+    "austinEnergyNote": "Austin Energy revenue bonds (~$2B) are secured by electric system revenues, not property taxes."
   }
 ]
