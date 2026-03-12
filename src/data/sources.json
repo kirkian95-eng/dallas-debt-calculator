@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "City of Dallas ACFR FY2024",
+    "url": "https://dallascityhall.com/departments/budget/financialtransparency",
+    "description": "Comprehensive Annual Financial Report — primary source for Dallas debt, pension, OPEB, and other long-term obligations."
+  },
+  {
+    "id": 2,
+    "title": "City of Dallas Debt Service Overview (as of 9/30/2025)",
+    "url": "https://dallascityhall.com",
+    "description": "Current debt service schedules and outstanding principal."
+  },
+  {
+    "id": 3,
+    "title": "KBRA Credit Report (Nov 2024)",
+    "url": null,
+    "description": "Affirms AA+ GO rating. Details $6.46B combined NPL, 2.87% of FMV, $4,959 per capita."
+  },
+  {
+    "id": 4,
+    "title": "S&P Global Credit Report (Feb 2024)",
+    "url": null,
+    "description": "Affirms AA-. Calls pension/OPEB a 'significant credit weakness.' Budgetary performance 'weak' after pension contribution deficiencies."
+  },
+  {
+    "id": 5,
+    "title": "Cara Mendelsohn — 'What is the Real Cost of the 2024 Dallas Bond?'",
+    "url": "https://candysdirt.com",
+    "description": "Council District 12 analysis: $3.5B total debt, $3.4B DPFP unfunded, $1.2B ERF unfunded = $8.1B+ total."
+  },
+  {
+    "id": 6,
+    "title": "City of Houston HB 1378 Debt Transparency Filing",
+    "url": "https://houstontx.gov/controller/treasury",
+    "description": "Per capita total $8,515, tax-supported per capita $5,308. Total debt including interest $19.7B."
+  },
+  {
+    "id": 7,
+    "title": "City of Houston Pension Solution Page",
+    "url": "https://houstontx.gov/pensions",
+    "description": "$8.2B pre-reform unfunded. 2017 reform details including POB issuance and cost corridor."
+  },
+  {
+    "id": 8,
+    "title": "Texas Policy Foundation — 'Just the Facts: Government Debt' (FY2022)",
+    "url": "https://texaspolicy.com",
+    "description": "All five cities' total debt with principal + interest breakdowns."
+  },
+  {
+    "id": 9,
+    "title": "Truth in Accounting — Financial State of the Cities (FY2023)",
+    "url": "https://governing.com",
+    "description": "TIA grades and taxpayer burden for all Texas cities. Published March 2025."
+  },
+  {
+    "id": 10,
+    "title": "Texas Bond Review Board — Debt Affordability Study (Feb 2025)",
+    "url": "https://brb.texas.gov",
+    "description": "State-level context, local debt per capita rankings."
+  },
+  {
+    "id": 11,
+    "title": "Texas Comptroller — Debt at a Glance",
+    "url": "https://comptroller.texas.gov/transparency/local/debt",
+    "description": "Dallas GO debt per capita history and comparison graphs."
+  },
+  {
+    "id": 12,
+    "title": "Texas Tribune — 'Billions in pension shortfalls threatening Texas cities' budgets'",
+    "url": "https://texastribune.org",
+    "description": "Moody's rankings of all four major Texas cities' pension obligations."
+  },
+  {
+    "id": 13,
+    "title": "Texas Monthly — 'Texas's Pension Problems' (Jan 2017)",
+    "url": "https://texasmonthly.com",
+    "description": "Moody's-adjusted figures: Dallas $7.6B, Houston $10B, Austin $2.7B, SA $2.3B."
+  },
+  {
+    "id": 14,
+    "title": "Bond Buyer — 'Pension obligation bonds may be option for underfunded Dallas pensions' (Sept 2023)",
+    "url": null,
+    "description": "$95.3M POB outstanding from 2005 issuance."
+  },
+  {
+    "id": 15,
+    "title": "Reason Foundation — Debt Trends for State and Local Governments (2025)",
+    "url": "https://reason.org",
+    "description": "National pension debt rankings and trend analysis."
+  },
+  {
+    "id": 16,
+    "title": "Baker Institute — 'Houston's Pension Shortfall' (2016)",
+    "url": "https://bakerinstitute.org",
+    "description": "Detailed CAFR analysis methodology for municipal pension obligations."
+  },
+  {
+    "id": 17,
+    "title": "Fort Worth 2024 Debt Financing Plan",
+    "url": "https://fortworthtexas.gov",
+    "description": "Moody's scorecard details, pension notch-down factor."
+  },
+  {
+    "id": 18,
+    "title": "City of Austin ACFR FY2024",
+    "url": "https://austintexas.gov",
+    "description": "Austin's comprehensive annual financial report."
+  },
+  {
+    "id": 19,
+    "title": "The Texan — 'Texas Among Top in Nation with $12,500 Local Government Debt Per Citizen' (2020)",
+    "url": "https://thetexan.news",
+    "description": "Houston first among Texas localities; $367.4B total local debt statewide."
+  }
+]

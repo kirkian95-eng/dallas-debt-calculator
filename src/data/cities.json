@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Dallas",
+    "population": 1304000,
+    "households": 504000,
+    "debt": {
+      "bondedDebt": 3500000000,
+      "unfundedPension": 6460000000,
+      "opeb": 580000000,
+      "otherLongTerm": 350000000
+    },
+    "budget": {
+      "total": 4700000000,
+      "generalFund": 2060000000
+    },
+    "taxBase": 200000000000,
+    "taxRate": 0.7357,
+    "creditRating": { "sp": "AA-", "moodys": "Aa3", "fitch": "AA", "kbra": "AA+" },
+    "creditRatingShort": "AA- / Aa3",
+    "pensionFundedPct": 42,
+    "pensionPlans": [
+      { "name": "Police & Fire (DPFP)", "unfunded": 3400000000, "funded": 37 },
+      { "name": "Employee Retirement (ERF)", "unfunded": 1200000000, "funded": 80 },
+      { "name": "DPFP Supplemental", "unfunded": 260000000, "funded": 43 }
+    ],
+    "tia": { "grade": "D", "shortfall": 5900000000, "taxpayerBurden": 13200 },
+    "tickRate": 10.5,
+    "color": "#FF3B3B",
+    "notes": "Net pension liability as of 12/31/2022 measurement. DPFP: $3.4B unfunded, ERF: $1.2B unfunded. S&P cited pension underfunding as 'significant credit weakness.' TIA: highest taxpayer burden in the state. 2024 bond program added $1.25B authorized by voters."
+  },
+  {
+    "name": "Houston",
+    "population": 2319000,
+    "households": 849000,
+    "debt": {
+      "bondedDebt": 13600000000,
+      "unfundedPension": 4500000000,
+      "opeb": 2900000000,
+      "otherLongTerm": 500000000
+    },
+    "budget": {
+      "total": 6300000000,
+      "generalFund": 2800000000
+    },
+    "taxBase": 230000000000,
+    "taxRate": 0.5618,
+    "creditRating": { "sp": "AA", "moodys": "Aa3" },
+    "creditRatingShort": "AA / Aa3",
+    "pensionFundedPct": 68,
+    "pensionPlans": [
+      { "name": "Municipal Employees (HMEPS)", "unfunded": 1900000000, "funded": 72 },
+      { "name": "Police (HPOPS)", "unfunded": 1500000000, "funded": 60 },
+      { "name": "Firefighters (HFRRF)", "unfunded": 1100000000, "funded": 68 }
+    ],
+    "tia": { "grade": "D", "shortfall": 4500000000, "taxpayerBurden": 5700 },
+    "tickRate": 7.2,
+    "color": "#0090FF",
+    "notes": "Post-2017 pension reform. POBs issued. Total debt $19.7B incl. interest. Much of total debt is revenue-supported (airport, water/sewer). Pension reform capped city contributions via cost corridor — structurally different from Dallas."
+  },
+  {
+    "name": "San Antonio",
+    "population": 1473000,
+    "households": 530000,
+    "debt": {
+      "bondedDebt": 11800000000,
+      "unfundedPension": 2300000000,
+      "opeb": 1400000000,
+      "otherLongTerm": 450000000
+    },
+    "budget": {
+      "total": 3900000000,
+      "generalFund": 1500000000
+    },
+    "taxBase": 145000000000,
+    "taxRate": 0.5588,
+    "creditRating": { "sp": "AAA", "moodys": "Aaa" },
+    "creditRatingShort": "AAA / Aaa",
+    "pensionFundedPct": 78,
+    "pensionPlans": [
+      { "name": "Fire & Police (SAFRPF)", "unfunded": 1400000000, "funded": 75 },
+      { "name": "Municipal (SAMERS)", "unfunded": 900000000, "funded": 82 }
+    ],
+    "tia": { "grade": "C", "shortfall": 1200000000, "taxpayerBurden": 2800 },
+    "tickRate": 4.8,
+    "color": "#00C853",
+    "notes": "CPS Energy debt is major component (~$7B of total). High per capita debt ($12,557) but much is utility revenue-supported. Pension relatively well managed. AAA rating reflects strong credit fundamentals separate from utility debt."
+  },
+  {
+    "name": "Fort Worth",
+    "population": 960000,
+    "households": 340000,
+    "debt": {
+      "bondedDebt": 2900000000,
+      "unfundedPension": 1800000000,
+      "opeb": 380000000,
+      "otherLongTerm": 200000000
+    },
+    "budget": {
+      "total": 2600000000,
+      "generalFund": 920000000
+    },
+    "taxBase": 100000000000,
+    "taxRate": 0.6925,
+    "creditRating": { "sp": "AA+", "moodys": "Aa1" },
+    "creditRatingShort": "AA+ / Aa1",
+    "pensionFundedPct": 62,
+    "pensionPlans": [
+      { "name": "Employees' Retirement (FWERP)", "unfunded": 1800000000, "funded": 62 }
+    ],
+    "tia": { "grade": "C", "shortfall": 1400000000, "taxpayerBurden": 4100 },
+    "tickRate": 2.4,
+    "color": "#FFB300",
+    "notes": "Lowest absolute debt among the five but significant unfunded pension relative to revenue base. Moody's flagged pension as a scorecard notch-down factor. TIA: 'financial condition showed some improvement.'"
+  },
+  {
+    "name": "Austin",
+    "population": 1018000,
+    "households": 415000,
+    "debt": {
+      "bondedDebt": 7200000000,
+      "unfundedPension": 2700000000,
+      "opeb": 1800000000,
+      "otherLongTerm": 400000000
+    },
+    "budget": {
+      "total": 5400000000,
+      "generalFund": 1300000000
+    },
+    "taxBase": 170000000000,
+    "taxRate": 0.4412,
+    "creditRating": { "sp": "AAA", "moodys": "Aaa" },
+    "creditRatingShort": "AAA / Aaa",
+    "pensionFundedPct": 66,
+    "pensionPlans": [
+      { "name": "City Employees (COAERS)", "unfunded": 1600000000, "funded": 68 },
+      { "name": "Police (APRS)", "unfunded": 600000000, "funded": 58 },
+      { "name": "Fire (AFRS)", "unfunded": 500000000, "funded": 64 }
+    ],
+    "tia": { "grade": "D", "shortfall": 3900000000, "taxpayerBurden": 11700 },
+    "tickRate": 3.9,
+    "color": "#AA00FF",
+    "notes": "Austin Energy debt is significant component. Highest TIA taxpayer burden among Texas cities after Dallas at $11,700. Ranked 13th worst nationally by TIA. Despite AAA GO rating, off-balance-sheet obligations are substantial."
+  }
+]
