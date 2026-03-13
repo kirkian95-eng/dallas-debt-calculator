@@ -8,36 +8,34 @@ export default function CityCard({ city, isSelected, onClick }) {
   return (
     <div
       onClick={onClick}
-      className="relative overflow-hidden rounded-lg p-3.5 cursor-pointer transition-all duration-300 border"
-      style={{
-        background: isSelected
-          ? `linear-gradient(135deg, ${city.color}15, ${city.color}08)`
-          : '#0F172A',
-        borderColor: isSelected ? city.color : '#1E293B',
-      }}
+      className={`relative overflow-hidden rounded-lg p-4 cursor-pointer transition-all duration-200 border ${
+        isSelected
+          ? 'bg-white border-slate-300 shadow-md'
+          : 'bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm'
+      }`}
     >
       {isSelected && (
-        <div className="absolute top-0 left-0 right-0 h-0.5" style={{ background: city.color }} />
+        <div className="absolute top-0 left-0 right-0 h-[3px] rounded-t-lg" style={{ background: city.color }} />
       )}
 
       <div className="flex justify-between items-center mb-2">
-        <span className="font-mono font-bold text-[15px]" style={{ color: city.color }}>
+        <span className="font-semibold text-base" style={{ color: city.color }}>
           {city.name}
         </span>
-        <span className="text-[10px] text-slate-500 bg-slate-800 px-1.5 py-0.5 rounded font-mono">
+        <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded font-mono">
           {city.creditRatingShort}
         </span>
       </div>
 
-      <div className="flex justify-between mb-1">
+      <div className="flex justify-between mb-2">
         <div>
-          <div className="text-[10px] text-slate-500 uppercase tracking-wider">Total Obligations</div>
-          <div className="font-mono text-lg font-bold text-slate-100">{fmt(total)}</div>
+          <div className="text-xs text-slate-500">Total Obligations</div>
+          <div className="font-mono text-lg font-bold text-slate-800">{fmt(total)}</div>
         </div>
         <div className="text-right">
-          <div className="text-[10px] text-slate-500 uppercase tracking-wider">Per Household</div>
+          <div className="text-xs text-slate-500">Per Household</div>
           <div className={`font-mono text-lg font-bold ${
-            perHH > 20000 ? 'text-red-500' : perHH > 15000 ? 'text-amber-500' : 'text-green-500'
+            perHH > 25000 ? 'text-red-700' : perHH > 18000 ? 'text-amber-700' : 'text-emerald-700'
           }`}>
             {fmtInt(perHH)}
           </div>

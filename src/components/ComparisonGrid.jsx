@@ -18,10 +18,7 @@ export default function ComparisonGrid({ cities }) {
         ))}
       </div>
 
-      <div
-        className="mt-4 bg-slate-900 rounded-lg p-5 border animate-in"
-        style={{ borderColor: `${cities[selected].color}33` }}
-      >
+      <div className="mt-4 bg-white rounded-lg p-5 border border-slate-200 shadow-sm animate-in">
         <PensionDetail city={cities[selected]} />
       </div>
     </div>
